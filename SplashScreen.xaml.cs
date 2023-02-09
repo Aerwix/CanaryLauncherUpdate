@@ -13,7 +13,7 @@ namespace CanaryLauncherUpdate
 		DispatcherTimer timer = new DispatcherTimer();
 		string urlClient = "https://github.com/lucasgiovannibr/clientlauncherupdate/archive/refs/heads/main.zip";
 		string urlVersion = "https://raw.githubusercontent.com/lucasgiovannibr/clientlauncherupdate/main/version.txt";
-		string currentVersion = "";
+		string currentVersion = "0.0.2";
 		string path = AppDomain.CurrentDomain.BaseDirectory.ToString();
 
 		public SplashScreen()
