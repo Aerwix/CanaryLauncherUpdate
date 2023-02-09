@@ -21,7 +21,7 @@ namespace CanaryLauncherUpdate
 
 		bool clientDownloaded = false;
 		bool needUpdate = false;
-		string clientName = "client.exe";
+		string clientName = "funeral.exe";
 		string urlClient = "https://github.com/lucasgiovannibr/clientlauncherupdate/archive/refs/heads/main.zip";
 		string urlVersion = "https://raw.githubusercontent.com/lucasgiovannibr/clientlauncherupdate/main/version.txt";
 		string currentVersion = "";
